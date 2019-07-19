@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1471"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="theIdea.svg">
+  <defs
+     id="defs1465">
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect2036"
+       is_visible="true"
+       steps="1"
+       threshold="0.0558065"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false"
+       simplifyindividualpaths="false"
+       simplifyJustCoalesce="false" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect2032"
+       is_visible="true"
+       steps="1"
+       threshold="0.0558065"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false"
+       simplifyindividualpaths="false"
+       simplifyJustCoalesce="false" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="-1480.0682"
+     inkscape:cy="51.89961"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1468">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.50099999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect2016"
+       width="116.52951"
+       height="202.05577"
+       x="-728.93011"
+       y="72.50663"
+       ry="0.65511632" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:43.53214645px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.08830369"
+       x="-702.74805"
+       y="190.63977"
+       id="text2020"><tspan
+         sodipodi:role="line"
+         id="tspan2018"
+         x="-702.74805"
+         y="190.63977"
+         style="stroke-width:1.08830369">PB</tspan></text>
+    <rect
+       ry="0.65511632"
+       y="72.50663"
+       x="-583.53546"
+       height="202.05577"
+       width="116.52951"
+       id="rect2022"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.50099999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+    <text
+       id="text2026"
+       y="183.35922"
+       x="-525.28955"
+       style="font-style:normal;font-weight:normal;font-size:30.12145424px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75303638"
+       xml:space="preserve"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.75303638"
+         y="183.35922"
+         x="-525.28955"
+         id="tspan2024"
+         sodipodi:role="line">ESP32</tspan><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.75303638"
+         y="221.01105"
+         x="-525.28955"
+         sodipodi:role="line"
+         id="tspan2028">CAM</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -528.47794,297.54757 c -3.87547,14.81627 -2.6442,30.2979 -2.67269,45.43581"
+       id="path2030"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect2032"
+       inkscape:original-d="m -528.47794,297.54757 c -3.82153,14.36608 -2.67269,30.3208 -2.67269,45.43581" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -541.84141,339.24162 c 7.17863,3.53788 8.61207,21.93751 19.08756,9.65208 4.46879,-5.2409 8.45988,-10.87606 12.98479,-16.06656"
+       id="path2034"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect2036"
+       inkscape:original-d="m -541.84141,339.24162 c 3.37939,0.58338 10.57304,14.74967 12.82894,15.50162 2.1414,0.71381 16.3187,-18.9914 19.24341,-21.9161" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-604.64972"
+       y="377.9957"
+       id="text2040"><tspan
+         sodipodi:role="line"
+         id="tspan2038"
+         x="-604.64972"
+         y="377.9957"
+         style="stroke-width:0.26458332">* SEND SMS ON MOTION</tspan><tspan
+         sodipodi:role="line"
+         x="-604.64972"
+         y="391.22485"
+         style="stroke-width:0.26458332"
+         id="tspan2042">* SEND IMAGES ON MOTION VIA WIFI</tspan><tspan
+         sodipodi:role="line"
+         x="-604.64972"
+         y="404.45404"
+         style="stroke-width:0.26458332"
+         id="tspan2044">* SEND VIDEO ON MOTION VIS WIFI</tspan><tspan
+         sodipodi:role="line"
+         x="-604.64972"
+         y="417.6832"
+         style="stroke-width:0.26458332"
+         id="tspan2054">* WHEN CANNOT CONNECT TO WIFI</tspan><tspan
+         sodipodi:role="line"
+         x="-604.64972"
+         y="430.91235"
+         style="stroke-width:0.26458332"
+         id="tspan2056">SEND IMAGE THROUGH 4G</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-402.5079"
+       y="173.52148"
+       id="text2048"><tspan
+         sodipodi:role="line"
+         id="tspan2046"
+         x="-402.5079"
+         y="173.52148"
+         style="stroke-width:0.26458332">* LOW COST </tspan><tspan
+         sodipodi:role="line"
+         x="-402.5079"
+         y="186.75066"
+         style="stroke-width:0.26458332"
+         id="tspan2050">* LARGE BATTERY LIFE</tspan><tspan
+         sodipodi:role="line"
+         x="-402.5079"
+         y="199.97981"
+         style="stroke-width:0.26458332"
+         id="tspan2052">* WEB DASHBOARD FOR SETTINGS</tspan></text>
+  </g>
+</svg>
