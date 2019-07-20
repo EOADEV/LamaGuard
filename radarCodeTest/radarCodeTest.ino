@@ -13,7 +13,7 @@ void loop() {
   radarState = digitalRead(RADAR_PIN);
   Serial.println(radarState);
   if(radarState){
-    tone(BUZZER_PIN,100);
+    tone(BUZZER_PIN,50);
     digitalWrite(LED_PIN,HIGH);
   }
   else{
