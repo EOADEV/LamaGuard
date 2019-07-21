@@ -40,8 +40,10 @@ int pictureNumber = 0;
 #include "ESP32_MailClient.h"
 #include "SD.h"
 
-#define WIFI_SSID "HUAWEI-B315-A94D"
-#define WIFI_PASSWORD "TA2E10M1GQA"
+//#define WIFI_SSID "HUAWEI-B315-A94D"
+//#define WIFI_PASSWORD "TA2E10M1GQA"
+#define WIFI_SSID "XO"
+#define WIFI_PASSWORD "santorini"
 
 //WiFi or HTTP client for internet connection
 HTTPClientESP32Ex http;
@@ -138,15 +140,7 @@ void setup()
     Serial.printf("Saved file to path: %s\n", path.c_str());
     EEPROM.write(0, pictureNumber);
     EEPROM.commit();
-  }
-  file.close();
-  
-  // Turns off the ESP32-CAM white on-board LED (flash) connected to GPIO 4
-  pinMode(4, OUTPUT);
-  digitalWrite(4, LOW);
-  rtc_gpio_hold_en(GPIO_NUM_4);
 
-  
   Serial.print("Connecting to AP");
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
   while (WiFi.status() != WL_CONNECTED)
@@ -180,32 +174,38 @@ void setup()
 
   //Add recipients, can add more than one recipient
   smtpData.addRecipient("odysseas.tests@gmail.com");
+  
+  smtpData.addAttachData("LamaGuardCamera.jpg", "image/jpg", (fb->buf), (fb->len));
+  //smtpData.setSendCallback(sendCallback);
 
-
-
-  //Add attachments, can add the file or binary data from flash memory, file in SD card
-  //Data from internal memory
-  smtpData.addAttachData("firebase_logo.png", "image/png", (uint8_t *)fb, sizeof fb);
-
-  //Set the storage types to read the attach files (SD is default)
-  //smtpData.setFileStorageType(MailClientStorageType::SPIFFS);
-  smtpData.setFileStorageType(MailClientStorageType::SD);
-
-  //Add attach files from SD card
-  //Comment these two lines, if no SD card connected
-  //Two files that previousely created.
-//  smtpData.addAttachFile("/binary_file.dat");
-  smtpData.addAttachFile("/picture1.png");
-  smtpData.setFileStorageType(MailClientStorageType::SD);
-
-  smtpData.setSendCallback(sendCallback);
-
+  
   //Start sending Email, can be set callback function to track the status
   if (!MailClient.sendMail(http, smtpData))
     Serial.println("Error sending Email, " + MailClient.smtpErrorReason());
+  
+  Serial.println("Waiting");
+int  c=0;
+  while(c<10000){
+  c++;
+  delay(1);
+  Serial.println(c);
+  }
+  delay(1000);
+  Serial.println("Waiting");
+
 
   //Clear all data from Email object to free memory
-  smtpData.empty();
+  //smtpData.empty();
+
+  }
+  file.close();
+  
+  // Turns off the ESP32-CAM white on-board LED (flash) connected to GPIO 4
+  pinMode(4, OUTPUT);
+  digitalWrite(4, LOW);
+  rtc_gpio_hold_en(GPIO_NUM_4);
+
+  
 
 }
 
